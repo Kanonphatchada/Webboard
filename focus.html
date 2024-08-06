@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus{
+            background-color: blue;
+        }
+        :target{
+            BORDER:
+            2PX SOLID GREEN;
+            background-color: yellow;
+        }
+        div {
+            font-size: 16pt;}
+            div:hover {
+                background-color: lightgrey;
+                color: blue;
+            }
+        div:active {
+            background-color: red;
+            color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        Phone :
+        <input type="tel">
+        <br>
+        e-mail :
+        <input type="email"
+        disabled="disabled" >
+    </form>
+
+    <a href="#news1"> Content 1</a>
+    <br>
+    <a href="#news2"> Content 2</a>
+
+    <p id="news1"> Content 1 </p>
+    <p id="news2"> Content 2 </p>
+
+    <div>
+        Hello,please hover mouse on me
+    </div>
+
+</body>
+</html>
